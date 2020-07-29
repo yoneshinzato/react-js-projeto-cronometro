@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.img {
+    width: 350px;
+    padding-top: 100px;
+}
+
+.timer {
+    color: aliceblue;
+    font-size: 120px;
+    margin-top: -270px;
+}
+
+.area-btn {
+    margin-top: 150px;
+    display: flex;
+}
+
+.botao {
+    width: 150px;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding:10px;
+}
+
+.botao:hover {
+    opacity: 0.75;
+    transition: all 0.5s
+}
